@@ -90,8 +90,8 @@ Zatim podesiti `SSL`:
 apt install python3-certbot-nginx
 certbot --nginx
 ```
-> NAPOMENA: Za konfigurisanje ssl sertifikata za www pod-domen potrebno je podesiti novi server blok u kome server_name sadrži www.example.com ili odvojeni fajl sa sadržajem kao u primeru iznad. U slučaju odvojenog konfiguracionog fajla potrebo je napraviti meku vezu do direktorijuma /etc/nginx/sites-enabled 
->`ln -s /etc/nginx/sites-available/www.default /etc/nginx/sites-enabled/www.default`
+> NAPOMENA: Za konfigurisanje ssl sertifikata za www pod-domen potrebno je podesiti novi server blok u kome server_name sadrži www.example.com ili odvojeni fajl sa sadržajem kao u primeru iznad. U slučaju odvojenog konfiguracionog fajla potrebo je napraviti meku vezu do direktorijuma /etc/nginx/sites-enabled <br>
+>`ln -s /etc/nginx/sites-available/www.default /etc/nginx/sites-enabled/www.default` <br>
 >`systemctl reload nginx`
 
 Nakon uspešno kreiranog SSL sertifikata, `certbot` će dodati server blok kao u primeru ispod:
