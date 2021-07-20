@@ -164,7 +164,7 @@ Ukoliko iz bilo kog razloga aplikaciju nije moguće otvoriti preko porta `80` il
 
 ## Instalacija Bitcoin Full node (Bitcoin-core)
 
-Sa zvaničnog sajta [bitcoin-a](https://bitcoin.org) potrebno je [preuzeti](https://bitcoin.org/download/) poslednju verziju za `linux`
+Sa zvaničnog sajta [bitcoin-a](https://bitcoin.org) potrebno je [preuzeti](https://bitcoin.org/en/download) poslednju verziju za `linux`
 
 ```
 wget https://bitcoin.org/bin/bitcoin-core-0.21.1/bitcoin-0.21.1-x86_64-linux-gnu.tar.gz
